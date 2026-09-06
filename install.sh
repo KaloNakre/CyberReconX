@@ -1,5 +1,6 @@
-```bash
 #!/bin/bash
+
+set -euo pipefail
 
 echo "=============================================="
 echo "           CyberReconX Installer"
@@ -12,6 +13,8 @@ echo "[*] Installing required tools..."
 
 sudo apt install -y \
     python3 \
+    python3-venv \
+    python3-pip \
     nmap \
     whois \
     whatweb \
@@ -20,8 +23,12 @@ sudo apt install -y \
 
 echo ""
 echo "[+] Installation completed."
-echo "[+] Run the tool with:"
+echo "[+] Next steps:"
+echo " 1) Create a virtualenv: python3 -m venv .venv"
+echo " 2) Activate it: source .venv/bin/activate"
+echo " 3) Install Python deps (if any): pip install -r requirements.txt"
+echo " 4) Run: python3 main.py"
 echo ""
-echo "    python3 main.py"
-echo ""
-```
+echo "Note: Run this script with sudo only when prompted."
+
+exit 0

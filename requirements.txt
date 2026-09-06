@@ -1,4 +1,5 @@
-```text
 # CyberReconX does not require external Python packages.
-# Required Linux tools are installed through install.sh.
-```
+# Required system tools are installed through `install.sh` (Linux) or
+# `install.ps1` (Windows). Leave this file empty if there are no Python
+# dependencies, or list them here one per line for `pip install -r`.
+
