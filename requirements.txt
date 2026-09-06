@@ -1,0 +1,4 @@
+```text
+# CyberReconX does not require external Python packages.
+# Required Linux tools are installed through install.sh.
+```
