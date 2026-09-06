@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
-  <rect width="100%" height="100%" fill="#071224" />
-  <g fill="#9be7ff" font-family="monospace" font-size="14">
-    <text x="20" y="40">┌─[ scan ]──────────────────────────┐</text>
-    <text x="20" y="70">│ 192.168.1.0/24                     │</text>
-    <text x="20" y="100">│ hosts: 23  open: 5  os: linux      │</text>
-    <text x="20" y="130">└───────────────────────────────────┘</text>
-  </g>
-</svg>
